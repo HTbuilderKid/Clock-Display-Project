@@ -21,7 +21,7 @@
 
 32. The result is 2.
 
-33.
+33. If we use the modulo operator with negative numbers, one of two things could happpen: we will get a negative result if the number before the % is negative, or if both sides are negative. If only the number after the % is negative, then the answer will stay positive.
 
 34.
 
