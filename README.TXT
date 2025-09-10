@@ -1,25 +1,30 @@
-Project: clock-display
-Authors: David Barnes and Michael Kölling
 
-This project is part of the material for the book
+21. The clock returns a time of 00:00 because of the method that we called. The class ClockDisplay has two different constructors: ClockDisplay() and ClockDisplay(int hour, int minute). Since we constructed an instance of the ClockDisplay with the first constructor, which doesn't specify the time shown on the clock, it's automatically set to 0. (* Constructor for ClockDisplay objects. This constructor, creates a new clock set at 00:00).
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
+23. In order for us to get 01:00 on the ClockDisplay, we need to either call the timeTick method 60 times, which the the amount of times required to change the minutes into 1 hour, or, we could also use the setTime method, which skips the tedious parts and allows us to simply set the time displayed on the clock.
 
-It is discussed in chapter 3.
+24. 
 
-To use this project, create an instance of class ClockDisplay. Then inspect this 
-instance and leave the object inspector window open. With the inspector window open, 
-call the object's methods, such as timeTick and setTime. Watch the 
-"displayString" in the inspector.
+25. 
 
-The displayString field simulates the actual clock display device. Were this 
-program running in a real clock, it would change the real, physical display 
-hardware instead of this string. The timeTick method would be triggered once 
-every minute by some timer hardware.
+26. The second constructor creates an instance of ClockDisplay that displays the values of our input as the time. 
 
-Everything else could be pretty much the same.
+27. There isn't a call to updateDisplay in the second constructor because 
 
+28. 
 
-Note: This project does not implement adequate handling of errors.
+29. The constructor of the Picture class creates the following objects: 2 Squares, 1 Triangle, and 1 Circle. Also, I know this isn't the question, but the objects are not yet drawn because the drawn = false;. After creating the object, you have to call the draw method in order to actually draw on the canvas.
+
+30. 
+
+31. 
+
+32. The result is 2.
+
+33. If we use the modulo operator with negative numbers, one of two things could happpen: we will get a negative result if the number before the % is negative, or if both sides are negative. If only the number after the % is negative, then the answer will stay positive.
+
+34.
+
+35. 
+
+37.
