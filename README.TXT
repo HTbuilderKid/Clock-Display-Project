@@ -7,11 +7,13 @@
 
 25. 
 
-26. The second constructor is different from the first one because it allows us to set the time in the 'minute' and 'hour' when creating the object. It does so by setting the value of (hour) & (minute) as the values that we entered with setValue();
+26. The second constructor creates an instance of ClockDisplay that displays the values of our input as the time. 
 
-27. 
+27. There isn't a call to updateDisplay in the second constructor because 
 
 28. 
+
+29. The constructor of the Picture class creates the following objects: 2 Squares, 1 Triangle, and 1 Circle. Also, I know this isn't the question, but the objects are not yet drawn because the drawn = false;. After creating the object, you have to call the draw method in order to actually draw on the canvas.
 
 30. 
 
