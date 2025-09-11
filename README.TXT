@@ -22,9 +22,9 @@ int status2 = p1.getStatus(0); -> no delay at all
 
 29. The constructor of the Picture class creates the following objects: 2 Squares, 1 Triangle, and 1 Circle. Also, I know this isn't the question, but the objects are not yet drawn because the drawn = false;. After creating the object, you have to call the draw method in order to actually draw on the canvas.
 
-30. 
+30. Basically everything that the roof does: changeSize, movrHorizontal, moveVertical, makeVisible. Since they are all methods defined in the Triangle class, they are external methods.
 
-31. 
+31. I don't think so. All it does it to call methods already defined in other objects (so external methods)
 
 32. The result is 2.
 
@@ -34,4 +34,4 @@ int status2 = p1.getStatus(0); -> no delay at all
 
 35. 
 
-37.
+37. I feel like the second option would be better if what we wanted to make was an actual clock, but since this is just a BlueJ project, version 1 is better because it's way simpler.
