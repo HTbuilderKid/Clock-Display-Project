@@ -3,15 +3,22 @@
 
 23. In order for us to get 01:00 on the ClockDisplay, we need to either call the timeTick method 60 times, which the the amount of times required to change the minutes into 1 hour, or, we could also use the setTime method, which skips the tedious parts and allows us to simply set the time displayed on the clock.
 
-24. 
+24. NumberDisplay digit = new NumberDisplay(10);
 
-25. 
+25. Rectangle window = new Rectangle(40, 20); [I think that we have to do what Shapes did, which is the import java.awt.*;]
 
-26. The second constructor creates an instance of ClockDisplay that displays the values of our input as the time. 
+26. The second constructor creates an instance of ClockDisplay that displays the values of our input as the time. It does so by calling the setTime method, which stored the values in the NumberDisplay objects and then uses another method to call the updateDisplay, which is why we don't see it in this constructor's code.
 
 27. There isn't a call to updateDisplay in the second constructor because 
 
-28. 
+28. The first way would be like this: 
+p1.print("file1", true); -> true because it is double sided
+p1.print("file2", false); -> false because it's not
+
+and:
+
+int status1 = p1.getStatus(5); -> 5 seconds delay
+int status2 = p1.getStatus(0); -> no delay at all
 
 29. The constructor of the Picture class creates the following objects: 2 Squares, 1 Triangle, and 1 Circle. Also, I know this isn't the question, but the objects are not yet drawn because the drawn = false;. After creating the object, you have to call the draw method in order to actually draw on the canvas.
 
