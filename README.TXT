@@ -3,7 +3,7 @@
 
 23. In order for us to get 01:00 on the ClockDisplay, we need to either call the timeTick method 60 times, which the the amount of times required to change the minutes into 1 hour, or, we could also use the setTime method, which skips the tedious parts and allows us to simply set the time displayed on the clock.
 
-24. 
+24. NumberDisplay digit = new NumberDisplay(10);
 
 25. 
 
