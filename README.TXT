@@ -7,7 +7,7 @@
 
 25. Rectangle window = new Rectangle(40, 20); [I think that we have to do what Shapes did, which is the import java.awt.*;]
 
-26. The second constructor creates an instance of ClockDisplay that displays the values of our input as the time. 
+26. The second constructor creates an instance of ClockDisplay that displays the values of our input as the time. It does so by calling the setTime method, which stored the values in the NumberDisplay objects and then uses another method to call the updateDisplay, which is why we don't see it in this constructor's code.
 
 27. There isn't a call to updateDisplay in the second constructor because 
 
